@@ -6,9 +6,6 @@
 - [Project Structure](#project-structure)
 - [Getting Started](#getting-started)
 - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
-- [Modeling](#modeling)
-- [Results](#results)
-- [Contributing](#contributing)
 - [License](#license)
 
 
@@ -17,9 +14,9 @@ This project focuses on cleaning and importing large datasets using Microsoft Ex
 
 ## Project Structure
 
-- data cleaning and importing: Contains scripts and files related to data cleaning and import.
-- umicoDB: Includes SQL scripts for setting up the Umico database.
-- power bi connection: Documentation and scripts for connecting Power BI to SQL Server.
+- data importing and cleaning
+- UmicoDB.sql: Includes SQL scripts for setting up the Umico database.
+- umico_visualData.pbix: Connecting Power BI to SQL Server.
   - data visualization: Includes code and files for data visualization using Power BI.
   - calculations with dax: Scripts and documentation for performing calculations using DAX.
   - final report : Includes the final report generated from the analysis.
@@ -32,3 +29,12 @@ To run the data analysis and modeling tasks, you will need following analysis to
   - Power Query
 - Microsoft SQL Server
 - Power BI
+
+## Exploratory Data Analysis (EDA)
+
+Exploratory Data Analysis (EDA) is performed to understand the dataset and draw insights. The EDA tasks include:
+
+- Data loading and summary statistics.
+- Visualizations of sum of discounted price.
+- Filtering for type of loan, type of discount.
+- Analysis of sellers, and their discounted price.
