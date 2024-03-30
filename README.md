@@ -9,7 +9,7 @@
 - [License](#license)
 
 
-## overview
+## Overview
 This project focuses on cleaning and importing large datasets using Microsoft Excel and Microsoft SQL Server, establishing the Umico database, connecting Power BI to SQL Server, extracting data from SQL, visualizing the data using various charts such as Pie, Table, and Column, performing calculations using DAX
 
 ## Project Structure
